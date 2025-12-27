@@ -57,6 +57,12 @@ function showToast(pesan) {
   }, 2000);
 }
 
+  listPesan.addEventListener("click", function (e) {
+  if (e.target.classList.contains("hapus-btn")) {
+    e.target.parentElement.remove();
+  }
+});
+
   btnKenal.addEventListener("click", mengenalSaya);
   btnKirim.addEventListener("click", kirimPesan);
 
