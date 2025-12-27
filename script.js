@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     divPesan.innerHTML =
       "<strong>" + nama + "</strong><br>" +
       pesan +
-      "<br><button class='hapus-btn' onclick='hapusPesan(this)'>Hapus</button>";
+      "<br><button class='hapus-btn'>Hapus</button>";
 
     listPesan.prepend(divPesan);
 
